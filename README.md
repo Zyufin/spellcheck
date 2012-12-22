@@ -25,10 +25,10 @@ If v = # vowels in W
          
          
          
-         More analysis to come.  Most importantly, the lookups for incorrect words are exponential with respect to v and r. 
-         However, this should not be a problem for the user unless he/she is grossly incompetent at spelling (or he/she is a 
-         cat napping on the keyboard) (asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo
-         asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo)
-         
-         An exponential time complexity in such a situation does not represent real problems for the user, but it does
-         present a risk for having your clock cycles eaten up by malicious cats, er, users.
+   More analysis to come.  Most importantly, the lookups for incorrect words are exponential with respect to v and r. 
+   However, this should not be a problem for the user unless he/she is grossly incompetent at spelling (or he/she is a 
+   cat napping on the keyboard) (asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo
+   asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo)
+   
+   An exponential time complexity in such a situation does not represent real problems for the user, but it does
+   present a risk for having your clock cycles eaten up by malicious cats, er, users.
