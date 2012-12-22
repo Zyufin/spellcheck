@@ -88,7 +88,7 @@ def vowel_variants(word):
         for i in range(len(vowel_map)):
             vowel_index = vowel_map[i]
             variant_char_list[vowel_index] = vowel_combo[i]
-            variant_word = ''.join(variant_char_list)
+        variant_word = ''.join(variant_char_list)
         yield variant_word
 
 def word_variations(word):
