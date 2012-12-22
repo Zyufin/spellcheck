@@ -8,10 +8,10 @@ wordgen.py appends ~/Downloads to the system path in order to call the functions
 
 In my implementation, correct dictionary words are stored in a Python set, so look ups for correctly spelled words should be O(1) on average (with O(n) worst case).    
 
-Lookups for an incorrectly spelled word W:
+Worst case lookups for an incorrectly spelled word W:
 
 If v = # vowels in W
-   k = length of W
+   w = length of W
    r = # of letters in W belonging to a consecutive repeated sequence of the same letter, minus the first in each     sequence (i.e. for  rrabbitttt r=5).
    
       Breakdown by function:
@@ -25,4 +25,6 @@ If v = # vowels in W
          
          
          
-         More analysis to come.
+         More analysis to come.  Most importantly, the lookups for incorrect words are exponential with respect to v and r.  However, this should not be a problem for the user unless he/she is grossly incompetent at spelling (or he/she is a cat napping on the keyboard) (asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo)
+         
+         An exponential time complexity in such a situation does not represent real problems for the user, but it does present a risk for having your clock cycles eaten up by malicious cats, er, users.
