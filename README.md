@@ -1,7 +1,7 @@
 spellcheck
 ==========
 
-Twitch.tv Programming Challenge
+Programming Challenge
 
 
 wordgen.py appends ~/Downloads to the system path in order to call the functions in spellcheck.py.  It's rather uninteresting to watch, however, because it only displays any behavior if there is an error or you allow it to finish testing mutations of every entry in the dictionary.
@@ -16,6 +16,10 @@ If v = # vowels in W
    
       Breakdown by function:
          vowel_variants:  w + w + 7 + w + w + 7 + v + 7**v + w + 4(7**v)v ~= O(7**v)
+         .
+         .
+         .
+         More analysis was planned.
          
          
          
@@ -23,9 +27,7 @@ If v = # vowels in W
          
          
          
-         
-         
-   More analysis to come.  Most importantly, the lookups for incorrect words are exponential with respect to v and r. 
+   Most importantly, the lookups for incorrect words are exponential with respect to v and r. 
    However, this should not be a problem for the user unless he/she is grossly incompetent at spelling (or he/she is a 
    cat napping on the keyboard) (asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo
    asfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjoasfjo)
